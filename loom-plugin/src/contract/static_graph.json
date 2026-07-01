@@ -1,0 +1,998 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": "b556244428f87b2b6545132d3087261001eca00b",
+        "handle": "mara.sol",
+        "bio": "core protocol, trust topology",
+        "trustScore": 1420000,
+        "inDegree": 1,
+        "outDegree": 5
+      },
+      {
+        "id": "7a9214685b6304fb2cef451053af9e166bd6c900",
+        "handle": "kai.dev",
+        "bio": "graph viz + frontend systems",
+        "trustScore": 1240000,
+        "inDegree": 1,
+        "outDegree": 2
+      },
+      {
+        "id": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+        "handle": "noor.research",
+        "bio": "mechanism design, governance",
+        "trustScore": 1540000,
+        "inDegree": 3,
+        "outDegree": 3
+      },
+      {
+        "id": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+        "handle": "eze.builds",
+        "bio": "fullstack, indexer infra",
+        "trustScore": 1540000,
+        "inDegree": 3,
+        "outDegree": 3
+      },
+      {
+        "id": "0d531726d1e9790657a5b44870ff2488eb06429a",
+        "handle": "lin.audits",
+        "bio": "security review, formal methods",
+        "trustScore": 1480000,
+        "inDegree": 3,
+        "outDegree": 2
+      },
+      {
+        "id": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+        "handle": "tobi.ops",
+        "bio": "devrel, community ops",
+        "trustScore": 1480000,
+        "inDegree": 2,
+        "outDegree": 4
+      },
+      {
+        "id": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+        "handle": "sade.design",
+        "bio": "product + brand systems",
+        "trustScore": 1360000,
+        "inDegree": 2,
+        "outDegree": 2
+      },
+      {
+        "id": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+        "handle": "ren.data",
+        "bio": "data pipelines, ml infra",
+        "trustScore": 1360000,
+        "inDegree": 2,
+        "outDegree": 2
+      },
+      {
+        "id": "798bdfb95934281c7d650c19ebf902ce915ae670",
+        "handle": "yuki.protocol",
+        "bio": "consensus + p2p research",
+        "trustScore": 1600000,
+        "inDegree": 4,
+        "outDegree": 2
+      },
+      {
+        "id": "718c3eb23cf28af164b346562a70ead9859bda4d",
+        "handle": "juno.writes",
+        "bio": "technical writing, docs",
+        "trustScore": 1480000,
+        "inDegree": 3,
+        "outDegree": 2
+      },
+      {
+        "id": "f10032a162de82984033a3adfdd01c9ee261e35e",
+        "handle": "ada.ml",
+        "bio": "on-chain ml, zkml experiments",
+        "trustScore": 1480000,
+        "inDegree": 3,
+        "outDegree": 2
+      },
+      {
+        "id": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+        "handle": "cleo.infra",
+        "bio": "infra, devops, k8s",
+        "trustScore": 1480000,
+        "inDegree": 3,
+        "outDegree": 2
+      },
+      {
+        "id": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+        "handle": "felix.writing",
+        "bio": "content, growth writing",
+        "trustScore": 1360000,
+        "inDegree": 2,
+        "outDegree": 2
+      },
+      {
+        "id": "3985984b4a07eeece63b3a8e620511d5bd47bd3e",
+        "handle": "zo.react",
+        "bio": "react + ui systems",
+        "trustScore": 1120000,
+        "inDegree": 1,
+        "outDegree": 0
+      }
+    ],
+    "edges": [
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "react",
+        "from": "b556244428f87b2b6545132d3087261001eca00b",
+        "to": "7a9214685b6304fb2cef451053af9e166bd6c900"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "mechdesign",
+        "from": "b556244428f87b2b6545132d3087261001eca00b",
+        "to": "fd8b44c38a373136afac379fbafeceda7f31ded3"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "typescript",
+        "from": "b556244428f87b2b6545132d3087261001eca00b",
+        "to": "d31ad89211058f01b6776560092c7bbb9644b9bf"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "audit",
+        "from": "b556244428f87b2b6545132d3087261001eca00b",
+        "to": "0d531726d1e9790657a5b44870ff2488eb06429a"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "infra",
+        "from": "7a9214685b6304fb2cef451053af9e166bd6c900",
+        "to": "d31ad89211058f01b6776560092c7bbb9644b9bf"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "governance",
+        "from": "7a9214685b6304fb2cef451053af9e166bd6c900",
+        "to": "fd8b44c38a373136afac379fbafeceda7f31ded3"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "typescript",
+        "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+        "to": "d31ad89211058f01b6776560092c7bbb9644b9bf"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "fuzzing",
+        "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+        "to": "0d531726d1e9790657a5b44870ff2488eb06429a"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "audit",
+        "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+        "to": "0d531726d1e9790657a5b44870ff2488eb06429a"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "devrel",
+        "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+        "to": "36e120e95a355cb97d511a74ffcc26c915f98ceb"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "devrel",
+        "from": "0d531726d1e9790657a5b44870ff2488eb06429a",
+        "to": "36e120e95a355cb97d511a74ffcc26c915f98ceb"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "design",
+        "from": "0d531726d1e9790657a5b44870ff2488eb06429a",
+        "to": "c89c18cf4e023ca763d1759b230f29059102f9fe"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "design",
+        "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+        "to": "c89c18cf4e023ca763d1759b230f29059102f9fe"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "data",
+        "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+        "to": "ea6443238c7922e0c800f6f49a453c0e29793f29"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "ml",
+        "from": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+        "to": "ea6443238c7922e0c800f6f49a453c0e29793f29"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "consensus",
+        "from": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+        "to": "798bdfb95934281c7d650c19ebf902ce915ae670"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "p2p",
+        "from": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+        "to": "798bdfb95934281c7d650c19ebf902ce915ae670"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "writing",
+        "from": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+        "to": "718c3eb23cf28af164b346562a70ead9859bda4d"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "writing",
+        "from": "798bdfb95934281c7d650c19ebf902ce915ae670",
+        "to": "718c3eb23cf28af164b346562a70ead9859bda4d"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "ml",
+        "from": "798bdfb95934281c7d650c19ebf902ce915ae670",
+        "to": "f10032a162de82984033a3adfdd01c9ee261e35e"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "zk",
+        "from": "718c3eb23cf28af164b346562a70ead9859bda4d",
+        "to": "f10032a162de82984033a3adfdd01c9ee261e35e"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "infra",
+        "from": "718c3eb23cf28af164b346562a70ead9859bda4d",
+        "to": "05be02ecd948b91d8aeb65c34cc61862562cade1"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "devops",
+        "from": "f10032a162de82984033a3adfdd01c9ee261e35e",
+        "to": "05be02ecd948b91d8aeb65c34cc61862562cade1"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "writing",
+        "from": "f10032a162de82984033a3adfdd01c9ee261e35e",
+        "to": "0b7190f8fd31b47a8b3813e393f242ee2e30f251"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "writing",
+        "from": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+        "to": "0b7190f8fd31b47a8b3813e393f242ee2e30f251"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "consensus",
+        "from": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+        "to": "b556244428f87b2b6545132d3087261001eca00b"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "react",
+        "from": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+        "to": "3985984b4a07eeece63b3a8e620511d5bd47bd3e"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "governance",
+        "from": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+        "to": "fd8b44c38a373136afac379fbafeceda7f31ded3"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "consensus",
+        "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+        "to": "798bdfb95934281c7d650c19ebf902ce915ae670"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "consensus",
+        "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+        "to": "798bdfb95934281c7d650c19ebf902ce915ae670"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "typescript",
+        "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+        "to": "718c3eb23cf28af164b346562a70ead9859bda4d"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "ml",
+        "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+        "to": "f10032a162de82984033a3adfdd01c9ee261e35e"
+      },
+      {
+        "stakeAmount": 5000000,
+        "skillTag": "consensus",
+        "from": "b556244428f87b2b6545132d3087261001eca00b",
+        "to": "05be02ecd948b91d8aeb65c34cc61862562cade1"
+      }
+    ],
+    "stats": {
+      "nodeCount": 14,
+      "edgeCount": 33,
+      "maxTrust": 1600000
+    }
+  },
+  "identities": [
+    {
+      "address": "b556244428f87b2b6545132d3087261001eca00b",
+      "handle": "mara.sol",
+      "bio": "core protocol, trust topology",
+      "registeredHeight": 5,
+      "trustScore": 1420000,
+      "inDegree": 1,
+      "outDegree": 5,
+      "stakedInbound": 1000000
+    },
+    {
+      "address": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "handle": "kai.dev",
+      "bio": "graph viz + frontend systems",
+      "registeredHeight": 6,
+      "trustScore": 1240000,
+      "inDegree": 1,
+      "outDegree": 2,
+      "stakedInbound": 1000000
+    },
+    {
+      "address": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "handle": "noor.research",
+      "bio": "mechanism design, governance",
+      "registeredHeight": 7,
+      "trustScore": 1540000,
+      "inDegree": 3,
+      "outDegree": 3,
+      "stakedInbound": 3000000
+    },
+    {
+      "address": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "handle": "eze.builds",
+      "bio": "fullstack, indexer infra",
+      "registeredHeight": 8,
+      "trustScore": 1540000,
+      "inDegree": 3,
+      "outDegree": 3,
+      "stakedInbound": 3000000
+    },
+    {
+      "address": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "handle": "lin.audits",
+      "bio": "security review, formal methods",
+      "registeredHeight": 9,
+      "trustScore": 1480000,
+      "inDegree": 3,
+      "outDegree": 2,
+      "stakedInbound": 3000000
+    },
+    {
+      "address": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "handle": "tobi.ops",
+      "bio": "devrel, community ops",
+      "registeredHeight": 10,
+      "trustScore": 1480000,
+      "inDegree": 2,
+      "outDegree": 4,
+      "stakedInbound": 2000000
+    },
+    {
+      "address": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "handle": "sade.design",
+      "bio": "product + brand systems",
+      "registeredHeight": 11,
+      "trustScore": 1360000,
+      "inDegree": 2,
+      "outDegree": 2,
+      "stakedInbound": 2000000
+    },
+    {
+      "address": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "handle": "ren.data",
+      "bio": "data pipelines, ml infra",
+      "registeredHeight": 12,
+      "trustScore": 1360000,
+      "inDegree": 2,
+      "outDegree": 2,
+      "stakedInbound": 2000000
+    },
+    {
+      "address": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "handle": "yuki.protocol",
+      "bio": "consensus + p2p research",
+      "registeredHeight": 13,
+      "trustScore": 1600000,
+      "inDegree": 4,
+      "outDegree": 2,
+      "stakedInbound": 4000000
+    },
+    {
+      "address": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "handle": "juno.writes",
+      "bio": "technical writing, docs",
+      "registeredHeight": 14,
+      "trustScore": 1480000,
+      "inDegree": 3,
+      "outDegree": 2,
+      "stakedInbound": 3000000
+    },
+    {
+      "address": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "handle": "ada.ml",
+      "bio": "on-chain ml, zkml experiments",
+      "registeredHeight": 15,
+      "trustScore": 1480000,
+      "inDegree": 3,
+      "outDegree": 2,
+      "stakedInbound": 3000000
+    },
+    {
+      "address": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "handle": "cleo.infra",
+      "bio": "infra, devops, k8s",
+      "registeredHeight": 16,
+      "trustScore": 1480000,
+      "inDegree": 3,
+      "outDegree": 2,
+      "stakedInbound": 3000000
+    },
+    {
+      "address": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "handle": "felix.writing",
+      "bio": "content, growth writing",
+      "registeredHeight": 17,
+      "trustScore": 1360000,
+      "inDegree": 2,
+      "outDegree": 2,
+      "stakedInbound": 2000000
+    },
+    {
+      "address": "3985984b4a07eeece63b3a8e620511d5bd47bd3e",
+      "handle": "zo.react",
+      "bio": "react + ui systems",
+      "registeredHeight": 18,
+      "trustScore": 1120000,
+      "inDegree": 1,
+      "outDegree": 0,
+      "stakedInbound": 1000000
+    }
+  ],
+  "threads": [
+    {
+      "from": "b556244428f87b2b6545132d3087261001eca00b",
+      "to": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "stakeAmount": 5000000,
+      "skillTag": "react",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "b556244428f87b2b6545132d3087261001eca00b",
+      "to": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "stakeAmount": 5000000,
+      "skillTag": "mechdesign",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "b556244428f87b2b6545132d3087261001eca00b",
+      "to": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "stakeAmount": 5000000,
+      "skillTag": "typescript",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "b556244428f87b2b6545132d3087261001eca00b",
+      "to": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "stakeAmount": 5000000,
+      "skillTag": "audit",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "to": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "stakeAmount": 5000000,
+      "skillTag": "infra",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "to": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "stakeAmount": 5000000,
+      "skillTag": "governance",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "to": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "stakeAmount": 5000000,
+      "skillTag": "typescript",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "to": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "stakeAmount": 5000000,
+      "skillTag": "fuzzing",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "to": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "stakeAmount": 5000000,
+      "skillTag": "audit",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "to": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "stakeAmount": 5000000,
+      "skillTag": "devrel",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "to": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "stakeAmount": 5000000,
+      "skillTag": "devrel",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "to": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "stakeAmount": 5000000,
+      "skillTag": "design",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "to": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "stakeAmount": 5000000,
+      "skillTag": "design",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "to": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "stakeAmount": 5000000,
+      "skillTag": "data",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "to": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "stakeAmount": 5000000,
+      "skillTag": "ml",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "to": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "stakeAmount": 5000000,
+      "skillTag": "consensus",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "to": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "stakeAmount": 5000000,
+      "skillTag": "p2p",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "to": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "stakeAmount": 5000000,
+      "skillTag": "writing",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "to": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "stakeAmount": 5000000,
+      "skillTag": "writing",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "to": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "stakeAmount": 5000000,
+      "skillTag": "ml",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "to": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "stakeAmount": 5000000,
+      "skillTag": "zk",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "to": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "stakeAmount": 5000000,
+      "skillTag": "infra",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "to": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "stakeAmount": 5000000,
+      "skillTag": "devops",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "to": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "stakeAmount": 5000000,
+      "skillTag": "writing",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "to": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "stakeAmount": 5000000,
+      "skillTag": "writing",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "to": "b556244428f87b2b6545132d3087261001eca00b",
+      "stakeAmount": 5000000,
+      "skillTag": "consensus",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "to": "3985984b4a07eeece63b3a8e620511d5bd47bd3e",
+      "stakeAmount": 5000000,
+      "skillTag": "react",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "to": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "stakeAmount": 5000000,
+      "skillTag": "governance",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "to": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "stakeAmount": 5000000,
+      "skillTag": "consensus",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "to": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "stakeAmount": 5000000,
+      "skillTag": "consensus",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "to": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "stakeAmount": 5000000,
+      "skillTag": "typescript",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "to": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "stakeAmount": 5000000,
+      "skillTag": "ml",
+      "wovenHeight": 20,
+      "active": true
+    },
+    {
+      "from": "b556244428f87b2b6545132d3087261001eca00b",
+      "to": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "stakeAmount": 5000000,
+      "skillTag": "consensus",
+      "wovenHeight": 20,
+      "active": true
+    }
+  ],
+  "endorsements": [
+    {
+      "from": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "to": "b556244428f87b2b6545132d3087261001eca00b",
+      "skill": "solidity",
+      "weight": 1240000,
+      "height": 30
+    },
+    {
+      "from": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "to": "b556244428f87b2b6545132d3087261001eca00b",
+      "skill": "consensus",
+      "weight": 1240000,
+      "height": 30
+    },
+    {
+      "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "to": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "skill": "react",
+      "weight": 1540000,
+      "height": 30
+    },
+    {
+      "from": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "to": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "skill": "d3",
+      "weight": 1540000,
+      "height": 30
+    },
+    {
+      "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "to": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "skill": "mechdesign",
+      "weight": 1540000,
+      "height": 30
+    },
+    {
+      "from": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "to": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "skill": "governance",
+      "weight": 1540000,
+      "height": 30
+    },
+    {
+      "from": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "to": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "skill": "typescript",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "to": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "skill": "infra",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "to": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "skill": "audit",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "to": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "skill": "fuzzing",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "to": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "skill": "devrel",
+      "weight": 1360000,
+      "height": 30
+    },
+    {
+      "from": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "to": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "skill": "design",
+      "weight": 1360000,
+      "height": 30
+    },
+    {
+      "from": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "to": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "skill": "ml",
+      "weight": 1600000,
+      "height": 30
+    },
+    {
+      "from": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "to": "ea6443238c7922e0c800f6f49a453c0e29793f29",
+      "skill": "data",
+      "weight": 1600000,
+      "height": 30
+    },
+    {
+      "from": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "to": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "skill": "consensus",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "to": "798bdfb95934281c7d650c19ebf902ce915ae670",
+      "skill": "p2p",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "to": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "skill": "writing",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "to": "718c3eb23cf28af164b346562a70ead9859bda4d",
+      "skill": "devrel",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "to": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "skill": "ml",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "to": "f10032a162de82984033a3adfdd01c9ee261e35e",
+      "skill": "zk",
+      "weight": 1480000,
+      "height": 30
+    },
+    {
+      "from": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "to": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "skill": "infra",
+      "weight": 1360000,
+      "height": 30
+    },
+    {
+      "from": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "to": "05be02ecd948b91d8aeb65c34cc61862562cade1",
+      "skill": "devops",
+      "weight": 1360000,
+      "height": 30
+    },
+    {
+      "from": "3985984b4a07eeece63b3a8e620511d5bd47bd3e",
+      "to": "0b7190f8fd31b47a8b3813e393f242ee2e30f251",
+      "skill": "writing",
+      "weight": 1120000,
+      "height": 30
+    },
+    {
+      "from": "b556244428f87b2b6545132d3087261001eca00b",
+      "to": "3985984b4a07eeece63b3a8e620511d5bd47bd3e",
+      "skill": "react",
+      "weight": 1420000,
+      "height": 30
+    }
+  ],
+  "guilds": [
+    {
+      "id": 1,
+      "name": "Protocol Guild",
+      "description": "Core builders advancing the LOOM trust graph protocol",
+      "creatorAddress": "b556244428f87b2b6545132d3087261001eca00b",
+      "minTrust": 1000000,
+      "memberCount": 5,
+      "createdHeight": 40
+    }
+  ],
+  "members": [],
+  "quests": [
+    {
+      "id": 1,
+      "guildId": 1,
+      "authorAddress": "b556244428f87b2b6545132d3087261001eca00b",
+      "title": "Build the trust graph visualizer",
+      "description": "Create a force-directed d3 visualization of the LOOM trust graph with real-time updates",
+      "reward": 10000000,
+      "status": "attested",
+      "createdHeight": 45
+    }
+  ],
+  "proofs": [
+    {
+      "id": 1,
+      "questId": 1,
+      "authorAddress": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "proofUri": "ipfs://QmLoomGraphViz",
+      "attested": true,
+      "approved": true,
+      "submittedHeight": 50
+    }
+  ],
+  "proposals": [
+    {
+      "id": "loom-gov-001",
+      "title": "Increase minimum trust threshold for guild formation",
+      "creatorAddress": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "yesWeight": 7220000,
+      "noWeight": 2840000,
+      "voteCount": 7,
+      "createdHeight": 60
+    }
+  ],
+  "votes": [
+    {
+      "proposalId": "loom-gov-001",
+      "voterAddress": "b556244428f87b2b6545132d3087261001eca00b",
+      "choice": true,
+      "weight": 1420000,
+      "height": 65
+    },
+    {
+      "proposalId": "loom-gov-001",
+      "voterAddress": "7a9214685b6304fb2cef451053af9e166bd6c900",
+      "choice": true,
+      "weight": 1240000,
+      "height": 66
+    },
+    {
+      "proposalId": "loom-gov-001",
+      "voterAddress": "fd8b44c38a373136afac379fbafeceda7f31ded3",
+      "choice": true,
+      "weight": 1540000,
+      "height": 67
+    },
+    {
+      "proposalId": "loom-gov-001",
+      "voterAddress": "d31ad89211058f01b6776560092c7bbb9644b9bf",
+      "choice": true,
+      "weight": 1540000,
+      "height": 68
+    },
+    {
+      "proposalId": "loom-gov-001",
+      "voterAddress": "0d531726d1e9790657a5b44870ff2488eb06429a",
+      "choice": true,
+      "weight": 1480000,
+      "height": 69
+    },
+    {
+      "proposalId": "loom-gov-001",
+      "voterAddress": "36e120e95a355cb97d511a74ffcc26c915f98ceb",
+      "choice": false,
+      "weight": 1480000,
+      "height": 70
+    },
+    {
+      "proposalId": "loom-gov-001",
+      "voterAddress": "c89c18cf4e023ca763d1759b230f29059102f9fe",
+      "choice": false,
+      "weight": 1360000,
+      "height": 71
+    }
+  ]
+}

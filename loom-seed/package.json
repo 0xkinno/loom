@@ -1,0 +1,20 @@
+{
+  "name": "loom-seed",
+  "version": "1.0.0",
+  "description": "Seeds a local Canopy/LOOM chain with a real, BLS-signed social graph (zero mocks).",
+  "type": "module",
+  "scripts": {
+    "seed": "tsx src/seed.ts"
+  },
+  "dependencies": {
+    "@noble/curves": "^2.0.1",
+    "long": "^5.2.3",
+    "protobufjs": "^7.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.2"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
