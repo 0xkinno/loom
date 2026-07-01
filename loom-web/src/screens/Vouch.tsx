@@ -39,10 +39,9 @@ export default function Vouch({ graph, onDone, toast }: { graph: Graph; onDone: 
     if (!from || !to || from === to || stake <= 0 || !skill.trim()) { toast('Fill every field — signer, target, stake, skill.', true); return; }
     setBusy(true); setHash('');
     try {
-      const signer = await getKey(from, pw);
-      const h = await weave(signer, to, stake, skill.trim());
-      setHash(h);
-      toast(`Thread woven · tx ${short(h)} · trust recomputing on-chain`);
+      const h = await weave(from, to, stake, skill.trim());
+      setHash(h || '');
+      toast(`Thread woven · tx ${short(h || '')} · trust recomputing on-chain`);
       onDone();
     } catch (e: any) {
       toast(e?.message || 'vouch failed', true);
