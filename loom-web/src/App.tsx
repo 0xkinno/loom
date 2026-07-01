@@ -103,15 +103,7 @@ export default function App() {
       {!graph ? (
         <div className="main">
           <div className="empty">
-            <div>
-              {online === false ? (
-                <>
-                  <div className="big">Can't reach the LOOM node</div>
-                  <div className="muted">Start your local Canopy node with <code>"plugin": "typescript"</code>, then run the seed.</div>
-                  <div className="muted" style={{ marginTop: 10 }}>Expecting the graph RPC at <code>:50010/v1/loom/graph</code>.</div>
-                </>
-              ) : <div className="muted">connecting to the weave…</div>}
-            </div>
+            <div className="muted">connecting to the weave…</div>
           </div>
         </div>
       ) : (

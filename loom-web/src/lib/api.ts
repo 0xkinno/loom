@@ -26,21 +26,26 @@ async function getStatic() {
   }
   return staticData;
 }
+async function getFromStatic<T>(path: string): Promise<T> {
+  const d = await getStatic();
+  if (path.includes('/graph')) return { nodes: d.graph.nodes, edges: d.graph.edges, stats: d.graph.stats, height: 0 } as T;
+  if (path.includes('/guilds')) return { guilds: d.guilds } as T;
+  if (path.includes('/quests')) return { quests: d.quests } as T;
+  if (path.includes('/proofs')) return { proofs: d.proofs } as T;
+  if (path.includes('/proposals')) return { proposals: d.proposals } as T;
+  if (path.includes('/endorsements')) return { endorsements: d.endorsements } as T;
+  throw new Error('not found in static data');
+}
 async function get<T>(path: string): Promise<T> {
   try {
-    const r = await fetch(`${base}${path}`);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 2000);
+    const r = await fetch(`${base}${path}`, { signal: controller.signal });
+    clearTimeout(timeout);
     if (!r.ok) throw new Error(`${r.status}`);
     return r.json() as Promise<T>;
   } catch {
-    // fallback to bundled static data
-    const d = await getStatic();
-    if (path.includes('/graph')) return { nodes: d.graph.nodes, edges: d.graph.edges, stats: d.graph.stats, height: 0 } as T;
-    if (path.includes('/guilds')) return { guilds: d.guilds } as T;
-    if (path.includes('/quests')) return { quests: d.quests } as T;
-    if (path.includes('/proofs')) return { proofs: d.proofs } as T;
-    if (path.includes('/proposals')) return { proposals: d.proposals } as T;
-    if (path.includes('/endorsements')) return { endorsements: d.endorsements } as T;
-    throw new Error('not found in static data');
+    return getFromStatic<T>(path);
   }
 }
 
