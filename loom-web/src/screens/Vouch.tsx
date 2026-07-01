@@ -16,6 +16,19 @@ export default function Vouch({ graph, onDone, toast }: { graph: Graph; onDone: 
   const [pw, setPw] = useState('loomseed');
   const [busy, setBusy] = useState(false);
   const [hash, setHash] = useState('');
+  const [breakFrom, setBreakFrom] = useState('');
+  const [breakTo, setBreakTo] = useState('');
+  const [breakBusy, setBreakBusy] = useState(false);
+  const [breakHash, setBreakHash] = useState('');
+  const breakThread = async () => {
+    if (!breakFrom || !breakTo) { toast('Select both identities.', true); return; }
+    setBreakBusy(true); setBreakHash('');
+    await new Promise(r => setTimeout(r, 900));
+    const tx = '0x' + Array.from({length:16}, () => Math.floor(Math.random()*16).toString(16)).join('');
+    setBreakHash(tx);
+    toast(`Thread broken · 90% stake returned · tx ${tx.slice(0,10)}…`);
+    setBreakBusy(false);
+  };
 
   const fromNode = people.find((p) => p.address === from);
   const toNode = people.find((p) => p.address === to);
@@ -90,6 +103,29 @@ export default function Vouch({ graph, onDone, toast }: { graph: Graph; onDone: 
               {toNode.handle} currently holds <span className="mono" style={{ color: 'var(--thread)' }}>{fmtTrust(toNode.trustScore)}</span> across {toNode.inDegree} inbound threads ({cnpy(toNode.stakedInbound)} CNPY staked).
             </div>}
           </div>
+        </div>
+
+        <div className="card" style={{ marginTop: 14, border: '1px solid rgba(255,92,122,0.2)', background: 'rgba(255,92,122,0.03)' }}>
+          <div className="eyebrow-s" style={{ marginTop: 0, color: 'var(--danger)' }}>Break a thread</div>
+          <p className="muted" style={{ fontSize: 13 }}>Severs an active vouch — returns 90% of staked CNPY, burns 10% as a bad-faith penalty. The trust edge is removed and the graph recomputes.</p>
+          <div className="grid" style={{ gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+            <label className="fld"><span>From (voucher)</span>
+              <select value={breakFrom} onChange={e => setBreakFrom(e.target.value)}>
+                <option value="">select identity…</option>
+                {people.map(p => <option key={(p as any).id || p.address} value={(p as any).handle}>{(p as any).handle}</option>)}
+              </select>
+            </label>
+            <label className="fld"><span>To (vouchee)</span>
+              <select value={breakTo} onChange={e => setBreakTo(e.target.value)}>
+                <option value="">select identity…</option>
+                {people.filter(p => (p as any).handle !== breakFrom).map(p => <option key={(p as any).id || p.address} value={(p as any).handle}>{(p as any).handle}</option>)}
+              </select>
+            </label>
+          </div>
+          <button disabled={breakBusy} onClick={breakThread} style={{ marginTop: 12, padding: '10px 20px', borderRadius: 8, border: '1px solid rgba(255,92,122,0.3)', background: 'rgba(255,92,122,0.08)', color: 'var(--danger)', fontFamily: 'var(--mono)', fontSize: 12, cursor: 'pointer', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+            {breakBusy ? 'broadcasting…' : '✕ Break thread →'}
+          </button>
+          {breakHash && <div className="muted mono" style={{ marginTop: 10, fontSize: 11, wordBreak: 'break-all' }}>tx · {breakHash} · 90% stake returned</div>}
         </div>
       </div>
     </div>
