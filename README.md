@@ -23,7 +23,8 @@ Not a follower count. Not a token balance. A trust **topology**.
 | Resource | Link |
 |---|---|
 | **GitHub** | https://github.com/0xkinno/loom |
-| **Demo video** | _<add local-node screen recording>_ |
+| **Live Demo** | https://loom-snowy-pi.vercel.app/ |
+| **Demo video** | _https://youtu.be/kRmNKu2ATEM?si=40rFpAmfaFOVQ0_1_ |
 | **Network** | Local Canopy chain · TypeScript plugin |
 | **Read RPC** | `:50010/v1/loom/*` · Tx/Query `:50002` · Admin keystore `:50003` |
 | **Discord build channel** | `#1445423487106809918` |
@@ -317,7 +318,7 @@ Every protocol that needs Sybil-resistant reputation — airdrops, DAO voting, u
 
 ---
 
-## Why LOOM Wins the Track (SocialFi)
+## Why LOOM Excels in the Track (SocialFi)
 
 - **Real working system** — 10 custom tx types, on-chain recursive scoring, all against a live local chain with **zero mocked data**.
 - **A primitive, not a feature** — recursive trust is reusable across lending, governance, curation, and access control.
